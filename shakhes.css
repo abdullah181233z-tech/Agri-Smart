@@ -1,0 +1,99 @@
+.shakhes{
+    /* padding-top: 170px; */
+    padding: 150px 5% 50px;
+    background-color:#a1f3cb;
+
+}
+.shakhes .icon{
+    background-color: #70ebaf;
+    width: 50px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #16A34A;
+    color: #16A34A;
+    margin-bottom: 15px;
+
+}
+.shakhes h2{
+    font-size: 36px;
+}
+.add{
+    background-color: #ffffff;
+    width: 35%;
+    height: 400px;
+    border-radius: 20px;
+    /* border: 1px solid #617568; */
+}
+.add h3{
+    padding: 20px 30px;
+}
+.add-foto{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 60px;
+}
+.add-foto .icon{
+    background-color: #70ebaf;
+    width: 50px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    border: 1px solid #16A34A;
+    color: #16A34A;
+}
+.add-foto .icon:hover{
+    background-color: #16A34A;
+    color: #ffffff;
+}
+.add-foto h4{
+    margin-top: 20px;
+    font-size: larger;
+}
+.add-foto p{
+    font-size: 13px;
+}
+.add-foto button{
+    width: 90%;
+    position: relative;
+    top: 60px;
+    padding: 5px ;
+    border-radius: 11px;
+    border-style: none;
+    color: #ffffff;
+    background-color: #16A34A;
+    font-size: 16px;
+}
+.add-foto button:hover{
+    padding: 6px;
+    background-color: #1cf58c;
+}
+.nat{
+    width: 55%;
+    height: 400px;
+    background-color: #ffffff;
+    /* border: 1px solid #617568; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nat .icon{
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+    /* background-color: #70ebaf; */
+}
+.nat h4{
+    font-size: 30px;
+}
+.add-nat{
+    display: flex;
+    padding: 5%;
+    justify-content: space-between;
+}
+

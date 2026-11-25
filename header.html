@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>header</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Cairo", sans-serif;
+      }
+      body {
+        background-color: #f1fff1;
+        color: #173d2b;
+      }
+      /* الناف بار */
+      header {
+        display: flex;
+        width: 100%;
+        /* height: 80px; */
+        height: auto;
+        background-color: #ffffff;
+        padding: 5px 5%;
+        /* justify-content: center; */
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+        position: fixed;
+      }
+      .logo {
+        display: flex;
+      }
+      .logo img {
+        width: 70px;
+        height: auto;
+      }
+      .logo h2 {
+        font-size: 20px;
+      }
+      .logo p {
+        font-size: 12px;
+        color: #718477;
+      }
+      nav {
+        display: flex;
+        /* align-items: center; */
+        gap: 20px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #617568;
+      }
+      nav a:hover {
+        background-color: #dcfef7;
+        color: #159447;
+        padding: 5px;
+        border-radius: 9px;
+      }
+      .ask {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      .ask-button {
+        background-color: #16a34a;
+        padding: 5px 15px;
+        border-radius: 5px;
+        border-style: none;
+        color: #ffffff;
+      }
+      .ask-button:hover {
+        background-color: #26c95f;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="" />
+        <div class="address">
+          <h2>ازرع بذكاء</h2>
+          <p>معرفة حديثة لزراعة افضل</p>
+        </div>
+      </div>
+      <nav>
+        <a href="#">الرئسية</a>
+        <a href="shakhes.html">شخص نباتك</a>
+        <a href="#">المقالات</a>
+        <a href="#">المساعد الذكي</a>
+        <a href="#">دليل الامراض</a>
+      </nav>
+      <div class="ask">
+        <button class="ask-button">اسأل المرشد</button>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-user preview-icon"
+        >
+          <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+          <circle cx="12" cy="7" r="4" />
+        </svg>
+      </div>
+    </header>
+  </body>
+</html>
