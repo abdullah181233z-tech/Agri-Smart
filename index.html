@@ -10,8 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
+     <!-- مكان الهيدر -->
+    <div id="header"></div>
     <!-- الناف بار -->
-    <header>
+    <!-- <header>
         <div class="logo">
             <img src="logo.png" alt="">
             <div class="address">
@@ -22,7 +24,7 @@
         <nav>
             <a href="index.html">الرئسية</a>
             <a href="shakhes.html">شخص نباتك</a>
-            <a href="#">المقالات</a>
+            <a href="#">المعرفة</a>
             <a href="#">المساعد الذكي</a>
             <a href="#">دليل الامراض</a>
         </nav>
@@ -37,7 +39,7 @@
               <circle cx="12" cy="7" r="4"/>
             </svg>
         </div>
-    </header> 
+    </header>  -->
     
     <main>
         <!-- الصفحة الاولي -->
@@ -53,7 +55,9 @@
                 لاتخاذ قرار زراعي افضل في مكان واحد
             </p>
             <div class="plant">
-                <button class="sh-plant"><svg xmlns="http://www.w3.org/2000/svg"
+                <button
+                     id="diagnoseBtn" onclick="goToDiagnosePage()"
+                     class="sh-plant"><svg xmlns="http://www.w3.org/2000/svg"
                      width="24" height="24"
                       viewBox="0 0 24 24" 
                       fill="none" 
@@ -119,7 +123,9 @@
             </div>
          </section>
     </main>
-    <footer class="footer">
+    <!-- مكان الفوتر -->
+    <div id="footer"></div>
+    <!-- <footer class="footer">
         <div class="footer-conteanr">
         <div class="footer-abut">
             <div class="icon-bottom">
@@ -149,6 +155,8 @@
             <p>ازرع بذكاء 2026-جميع حقوق النشر محفوظة@</p>
         </div>
 
-    </footer>
+    </footer> -->
+    <script src="java.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
